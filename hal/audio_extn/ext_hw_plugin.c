@@ -38,11 +38,11 @@
 #include <pthread.h>
 #include <dlfcn.h>
 #include <log/log.h>
-#include <audio_hw.h>
+#include "./../audio_hw.h"
 #include "audio_extn.h"
-#include "platform_api.h"
-#include "platform.h"
-#include "audio_hal_plugin.h"
+#include "./../platform_api.h"
+#include "./../msm8974/platform.h"
+#include "./../audio_hal_plugin.h"
 
 //external feature dependency
 static fp_b64decode_t fp_b64decode;

@@ -28,7 +28,7 @@
 #include <cutils/str_parms.h>
 #include <log/log.h>
 
-#include "audio_hw.h"
+#include "./../audio_hw.h"
 //#include "platform.h"
 //#include "platform_api.h"
 

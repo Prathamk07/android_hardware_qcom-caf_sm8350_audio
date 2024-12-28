@@ -57,7 +57,7 @@
 #include <ctype.h>
 #include <linux/version.h>
 
-#include "audio_hw.h"
+#include "./../audio_hw.h"
 #include "audio_extn.h"
 
 #ifdef DYNAMIC_LOG_ENABLED

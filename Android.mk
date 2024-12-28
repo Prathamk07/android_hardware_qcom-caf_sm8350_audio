@@ -10,7 +10,7 @@ ifeq ($(BOARD_USES_LEGACY_ALSA_AUDIO),true)
 include $(MY_LOCAL_PATH)/legacy/Android.mk
 else
 ifneq ($(filter mpq8092,$(TARGET_BOARD_PLATFORM)),)
-include $(MY_LOCAL_PATH)/hal_mpq/Android.mk
+include $(MY_LOCAL_PATH)/hal/Android.mk
 else
 include $(MY_LOCAL_PATH)/hal/Android.mk
 endif

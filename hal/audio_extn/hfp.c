@@ -33,9 +33,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 #include <math.h>
 #include <log/log.h>
 
-#include "audio_hw.h"
-#include "platform.h"
-#include "platform_api.h"
+#include "./../audio_hw.h"
+#include "./../msm8974/platform.h"
+#include "./../platform_api.h"
 #include <stdlib.h>
 #include <cutils/str_parms.h>
 #include "audio_extn.h"

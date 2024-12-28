@@ -28,9 +28,9 @@
 #include <dlfcn.h>
 #include <log/log.h>
 
-#include "audio_hw.h"
-#include "platform.h"
-#include "platform_api.h"
+#include "./../audio_hw.h"
+#include "./../msm8974/platform.h"
+#include "./../platform_api.h"
 #include "edid.h"
 
 #ifdef DYNAMIC_LOG_ENABLED

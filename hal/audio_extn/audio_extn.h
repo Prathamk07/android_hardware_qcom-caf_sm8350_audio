@@ -47,7 +47,7 @@
 #include "adsp_hdlr.h"
 #include "audio_hidl.h"
 #include "ip_hdlr_intf.h"
-#include "platform_api.h"
+#include "./../platform_api.h"
 #include "edid.h"
 #include "battery_listener.h"
 
